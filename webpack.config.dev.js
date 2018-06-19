@@ -9,6 +9,10 @@ module.exports = merge(webpackConfig, {
         pathinfo: true,
         publicPath: '/',
         filename: '[name].js'
+    },
+
+    devServer: {
+        host: '0.0.0.0'
     }
 
 });
