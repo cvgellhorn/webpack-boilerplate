@@ -11,8 +11,8 @@ You only need <b>node.js</b> pre-installed and you’re good to go.
 
 If you don’t want to work with lodash, just remove it from the node packages and the webpack config.
 
-## Download
-Download in current directory
+## Usage
+Download to target directory or use this repository as a template
 ```sh
 $ curl -L -o master.zip https://github.com/cvgellhorn/webpack-boilerplate/archive/master.zip && unzip master.zip && rm master.zip && mv ./webpack-boilerplate-master/{.,}* ./ && rm -r ./webpack-boilerplate-master
 ```
