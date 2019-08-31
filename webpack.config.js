@@ -79,7 +79,9 @@ module.exports = {
                         loader: 'sass-loader',
                         options: {
                             sourceMap: IS_DEV,
-                            includePaths: [dirAssets]
+                            sassOptions: {
+                                includePaths: [dirAssets]
+                            }
                         }
                     }
                 ]
