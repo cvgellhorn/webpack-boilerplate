@@ -30,7 +30,7 @@
     "sass-loader": "8.0.0",
     "style-loader": "1.0.0",
     "url-loader": "2.1.0",
-    "webpack": "4.40.2",
+    "webpack": "4.41.1",
     "webpack-cli": "3.3.9",
     "webpack-dev-server": "3.8.1",
     "webpack-merge": "4.2.2"
