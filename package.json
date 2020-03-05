@@ -22,7 +22,7 @@
     "babel-loader": "8.0.6",
     "babel-plugin-syntax-dynamic-import": "6.18.0",
     "clean-webpack-plugin": "3.0.0",
-    "cross-env": "7.0.1",
+    "cross-env": "7.0.2",
     "css-loader": "3.4.2",
     "file-loader": "5.1.0",
     "html-webpack-plugin": "3.2.0",
