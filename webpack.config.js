@@ -7,6 +7,7 @@ const IS_DEV = (process.env.NODE_ENV === 'dev');
 
 const dirNode = 'node_modules';
 const dirApp = path.join(__dirname, 'app');
+const dirStyles = path.join(__dirname, 'styles');
 const dirAssets = path.join(__dirname, 'assets');
 
 const appHtmlTitle = 'Webpack Boilerplate';
@@ -25,6 +26,7 @@ module.exports = {
         modules: [
             dirNode,
             dirApp,
+            dirStyles,
             dirAssets
         ]
     },
