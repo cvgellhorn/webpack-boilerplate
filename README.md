@@ -24,12 +24,12 @@ $ npm install
 ```
 
 ## Development
-Run the local webpack-dev-server with livereload and autocompile on [http://localhost:8080/](http://localhost:8080/)
+Build the app in dev mode and run the local webpack-dev-server with livereload and autocompile on [http://0.0.0.0:8080/](http://0.0.0.0:8080/)
 ```sh
 $ npm run dev
 ```
-## Deployment
-Build the current application
+## Production
+Build the app in production mode
 ```sh
 $ npm run build
 ```
