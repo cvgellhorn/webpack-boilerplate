@@ -4,10 +4,10 @@
 .sass-cache
 
 ## Directories
-log
-dist
-node_modules
-bower_components
+log/
+dist/
+node_modules/
+bower_components/
 
 ## Files
 result.xml
