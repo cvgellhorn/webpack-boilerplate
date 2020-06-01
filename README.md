@@ -1,6 +1,7 @@
 Webpack 4 Boilerplate
 ===========
 ![npm](https://img.shields.io/npm/v/webpack?label=webpack&style=flat-square&logo=webpack)
+![npm](https://img.shields.io/npm/v/webpack-dev-server?label=webpack-dev-server&style=flat-square&logo=webpack)
 
 > Plain webpack 4 boilerplate with Babel, SASS and lodash on board
 
