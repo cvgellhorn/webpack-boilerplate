@@ -5,6 +5,9 @@
   "author": "Christoph von Gellhorn",
   "license": "MIT",
   "homepage": "https://github.com/cvgellhorn/webpack-boilerplate",
+  "engines": {
+    "node": ">=10.13.0"
+  },
   "scripts": {
     "dev": "webpack-dev-server --progress --env.dev --config webpack.dev.js",
     "build": "webpack -p --progress --env.prod --config webpack.prod.js"
@@ -29,8 +32,8 @@
     "sass-loader": "10.0.3",
     "style-loader": "2.0.0",
     "url-loader": "4.1.1",
-    "webpack": "5.0.0",
-    "webpack-cli": "4.0.0",
+    "webpack": "4.44.2",
+    "webpack-cli": "3.3.12",
     "webpack-dev-server": "3.11.0",
     "webpack-merge": "5.2.0"
   }
