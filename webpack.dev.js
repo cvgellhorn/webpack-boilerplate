@@ -11,7 +11,7 @@ module.exports = env => {
         output: {
             pathinfo: true,
             publicPath: '/',
-            filename: '[name].js'
+            // filename: '[name].js'
         },
     
         devServer: {
