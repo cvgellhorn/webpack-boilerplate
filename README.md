@@ -1,11 +1,11 @@
-Webpack 4 Boilerplate
+Webpack 5 Boilerplate
 ===========
 ![npm](https://img.shields.io/npm/v/webpack?label=webpack&style=flat-square&logo=webpack)
 ![npm](https://img.shields.io/npm/v/webpack-dev-server?label=webpack-dev-server&style=flat-square&logo=webpack)
 ![npm](https://img.shields.io/badge/dependencies-up--to--date-green?style=flat-square&logo=npm&color=success)
 ![Maintenance](https://img.shields.io/maintenance/yes/2020?style=flat-square&logo=github)
 
-> Plain webpack 4 boilerplate with Babel, SASS and lodash on board
+> Plain webpack 5 boilerplate with Babel, SASS and lodash on board
 
 ## Requirements
 You only need <b>node.js</b> pre-installed and you’re good to go. 
@@ -25,7 +25,7 @@ $ npm install
 ```
 
 ## Development
-Build the app in dev mode and run the local webpack-dev-server with livereload and autocompile on [http://0.0.0.0:8080/](http://0.0.0.0:8080/)
+Build the app in dev mode and run webpack serve with livereload and autocompile on [http://0.0.0.0:8080/](http://0.0.0.0:8080/)
 ```sh
 $ npm run dev
 ```
@@ -36,5 +36,5 @@ $ npm run build
 ```
 
 ## [webpack](https://webpack.js.org/)
-If you're not familiar with webpack, the [webpack-dev-server](https://webpack.js.org/configuration/dev-server/) will serve the static files in your build folder and watch your source files for changes.
+If you're not familiar with webpack, [webpack serve](https://github.com/webpack/webpack-cli/blob/master/packages/serve/README.md#webpack-cli-serve) will serve the static files in your build folder and watch your source files for changes.
 When changes are made the bundle will be recompiled. This modified bundle is served from memory at the relative path specified in publicPath.
