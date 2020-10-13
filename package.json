@@ -9,8 +9,8 @@
     "node": ">=10.13.0"
   },
   "scripts": {
-    "dev": "webpack-dev-server --progress --env.dev --config webpack.dev.js",
-    "build": "webpack --progress --env.prod --config webpack.prod.js"
+    "dev": "webpack serve --progress --env dev --config webpack.dev.js",
+    "build": "webpack --progress --env prod --config webpack.prod.js"
   },
   "repository": {
     "type": "git",
