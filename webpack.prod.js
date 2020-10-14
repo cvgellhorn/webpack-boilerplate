@@ -12,7 +12,7 @@ module.exports = env => {
     
         output: {
             // path: path.join(__dirname, 'dist'), // remove later
-            filename: '[name].[chunkhash].js'
+            filename: '[name].[contenthash].js'
         },
     
         plugins: [
