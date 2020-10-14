@@ -11,7 +11,6 @@ module.exports = env => {
         devtool: 'source-map',
     
         output: {
-            // path: path.join(__dirname, 'dist'), // remove later
             filename: '[name].[contenthash].js'
         },
     
