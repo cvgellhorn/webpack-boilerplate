@@ -39,15 +39,17 @@ module.exports = env => {
         ],
         module: {
             rules: [
-                // BABEL
+                // BABEL    
                 {
-                    test: /\.js$/,
-                    loader: 'babel-loader',
+                    test: /\.m?js$/,
                     exclude: /(node_modules)/,
-                    options: {
-                        compact: true
+                    use: {
+                        loader: 'babel-loader',
+                        options: {
+                            compact: true
+                        }
                     }
-                },
+                }
     
                 // STYLES
                 {
@@ -88,10 +90,12 @@ module.exports = env => {
     
                 // IMAGES
                 {
-                    test: /\.(jpe?g|png|gif)$/,
-                    loader: 'file-loader',
-                    options: {
-                        name: '[path][name].[ext]'
+                    test: /\.(png|jpe?g|gif)$/i,
+                    use: {
+                        loader: 'file-loader',
+                        options: {
+                            name: '[path][name].[ext]'
+                        }
                     }
                 }
             ]
