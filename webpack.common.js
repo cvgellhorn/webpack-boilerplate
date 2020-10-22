@@ -49,7 +49,7 @@ module.exports = env => {
                             compact: true
                         }
                     }
-                }
+                },
     
                 // STYLES
                 {
