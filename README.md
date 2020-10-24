@@ -8,7 +8,7 @@ Webpack 5 Boilerplate
 > A minimal webpack 5 boilerplate with only Babel, SASS and lodash on board
 
 ## Requirements
-You only need <b>node.js</b> pre-installed and you’re good to go. 
+You only need <b>node.js</b> `>=10.13.0` pre-installed and you’re good to go. 
 
 If you don’t want to work with lodash, just remove it from the node packages and the webpack config.
 
