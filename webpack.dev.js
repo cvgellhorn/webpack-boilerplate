@@ -6,6 +6,7 @@ module.exports = env => {
 
         mode: 'development',
 
+        // Use eval-cheap-source-map for accurate line numbers, eval has best build performance
         devtool: 'eval',
     
         output: {
