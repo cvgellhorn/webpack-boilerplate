@@ -15,12 +15,14 @@ module.exports = env => {
     const IS_DEV = !!env.dev;
     
     return {
+
         entry: {
             vendor: [
                 'lodash'
             ],
             bundle: path.join(dirApp, 'index')
         },
+
         resolve: {
             modules: [
                 dirNode,
@@ -29,6 +31,7 @@ module.exports = env => {
                 dirAssets
             ]
         },
+
         plugins: [
             new webpack.DefinePlugin({ IS_DEV }),
     
@@ -37,6 +40,7 @@ module.exports = env => {
                 title: 'Webpack Boilerplate'
             })
         ],
+
         module: {
             rules: [
                 // BABEL    
@@ -99,6 +103,11 @@ module.exports = env => {
                     }
                 }
             ]
+        },
+
+        optimization: {
+            runtimeChunk: 'single'
         }
+        
     };
 };
