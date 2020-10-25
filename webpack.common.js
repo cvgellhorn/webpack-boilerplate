@@ -12,7 +12,11 @@ const dirAssets = path.join(__dirname, 'assets');
  */
 module.exports = env => {
     // Is the current build a development build
-    const IS_DEV = env === 'dev';
+    // const IS_DEV = env === 'dev';
+    const IS_DEV = !!env.dev;
+    console.log(env);
+    console.log(IS_DEV);
+    
     
     return {
         entry: {
