@@ -11,7 +11,8 @@ module.exports = env => {
     
         output: {
             pathinfo: true,
-            publicPath: '/'
+            publicPath: '/',
+            filename: '[name].bundle.js'
         },
     
         devServer: {
