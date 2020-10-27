@@ -17,9 +17,6 @@ module.exports = env => {
     return {
 
         entry: {
-            vendor: [
-                'lodash'
-            ],
             bundle: path.join(dirApp, 'index')
         },
 

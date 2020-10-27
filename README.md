@@ -5,12 +5,12 @@ Webpack 5 Boilerplate
 ![npm](https://img.shields.io/badge/dependencies-up--to--date-green?style=flat-square&logo=npm&color=success)
 ![Maintenance](https://img.shields.io/maintenance/yes/2020?style=flat-square&logo=github)
 
-> A minimal webpack 5 boilerplate with only Babel, SASS and lodash on board
+> A minimal webpack 5 boilerplate with only Babel, SASS and lodash (optional) on board
 
 ## Requirements
 You only need <b>node.js</b> `>=10.13.0` pre-installed and you’re good to go. 
 
-If you don’t want to work with lodash, just remove it from the node packages and the webpack config.
+If you don’t want to work with lodash, just remove it from the node packages.
 
 ## Usage
 Download to target directory or use this repository as a template
