@@ -17,7 +17,7 @@ module.exports = env => {
     return {
 
         entry: {
-            bundle: path.join(dirApp, 'index')
+            main: path.join(dirApp, 'index')
         },
 
         resolve: {
