@@ -4,6 +4,7 @@ Webpack 5 Boilerplate
 ![npm](https://img.shields.io/npm/v/webpack-cli?label=webpack-cli&style=flat-square&logo=webpack)
 ![npm](https://img.shields.io/badge/dependencies-up--to--date-green?style=flat-square&logo=npm&color=success)
 ![Maintenance](https://img.shields.io/maintenance/yes/2020?style=flat-square&logo=github)
+![Dependabot](https://flat.badgen.net/dependabot/cvgellhorn/webpack-boilerplate?icon=dependabot)
 
 > A minimal webpack 5 boilerplate with only Babel, SASS and lodash (optional) on board
 
