@@ -28,7 +28,7 @@
     "copy-webpack-plugin": "7.0.0",
     "css-loader": "5.0.2",
     "file-loader": "6.2.0",
-    "html-webpack-plugin": "5.1.0",
+    "html-webpack-plugin": "5.2.0",
     "image-minimizer-webpack-plugin": "^2.2.0",
     "imagemin-svgo": "^8.0.0",
     "node-sass": "5.0.0",
