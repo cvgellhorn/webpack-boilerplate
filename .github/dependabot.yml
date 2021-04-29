@@ -1,0 +1,20 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "19:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: webpack
+    versions:
+    - 5.36.0
+  - dependency-name: "@babel/core"
+    versions:
+    - 7.12.13
+    - 7.13.15
+    - 7.13.8
+  - dependency-name: "@babel/preset-env"
+    versions:
+    - 7.12.17
