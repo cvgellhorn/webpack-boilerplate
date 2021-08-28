@@ -29,7 +29,7 @@ module.exports = env => {
             new webpack.DefinePlugin({ IS_DEV }),
 
             new HtmlWebpackPlugin({
-                template: path.join(__dirname, 'index.ejs'),
+                template: path.join(__dirname, 'public/index.html'),
                 title: 'Webpack Boilerplate'
             })
         ],
