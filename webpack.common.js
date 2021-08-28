@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ImageMinimizerPlugin = require('image-minimizer-webpack-plugin');
 
 const dirNode = 'node_modules';
-const dirApp = path.join(__dirname, 'app');
+const dirApp = path.join(__dirname, 'src');
 const dirStyles = path.join(__dirname, 'styles');
 const dirAssets = path.join(__dirname, 'assets');
 
@@ -60,7 +60,7 @@ module.exports = env => {
 
         module: {
             rules: [
-                // BABEL    
+                // BABEL
                 {
                     test: /\.m?js$/,
                     exclude: /(node_modules)/,
