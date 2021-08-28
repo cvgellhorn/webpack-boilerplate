@@ -9,50 +9,50 @@ const dirApp = path.join(__dirname, 'src');
  * Webpack Configuration
  */
 module.exports = env => {
-    // Is the current build a development build
-    const IS_DEV = !!env.dev;
+  // Is the current build a development build
+  const IS_DEV = !!env.dev;
 
-    return {
+  return {
 
-        entry: {
-            main: path.join(dirApp, 'index')
+    entry: {
+      main: path.join(dirApp, 'index')
+    },
+
+    resolve: {
+      modules: [
+        dirNode,
+        dirApp,
+      ]
+    },
+
+    plugins: [
+      new webpack.DefinePlugin({ IS_DEV }),
+
+      new HtmlWebpackPlugin({
+        template: path.join(__dirname, 'public/index.html'),
+        title: 'Webpack Boilerplate'
+      })
+    ],
+
+    module: {
+      rules: [
+        // BABEL
+        {
+          test: /\.m?js$/,
+          exclude: /(node_modules)/,
+          use: {
+            loader: 'babel-loader',
+            options: {
+              compact: true
+            }
+          }
         },
+      ]
+    },
 
-        resolve: {
-            modules: [
-                dirNode,
-                dirApp,
-            ]
-        },
+    optimization: {
+      runtimeChunk: 'single'
+    }
 
-        plugins: [
-            new webpack.DefinePlugin({ IS_DEV }),
-
-            new HtmlWebpackPlugin({
-                template: path.join(__dirname, 'public/index.html'),
-                title: 'Webpack Boilerplate'
-            })
-        ],
-
-        module: {
-            rules: [
-                // BABEL
-                {
-                    test: /\.m?js$/,
-                    exclude: /(node_modules)/,
-                    use: {
-                        loader: 'babel-loader',
-                        options: {
-                            compact: true
-                        }
-                    }
-                },
-            ]
-        },
-
-        optimization: {
-            runtimeChunk: 'single'
-        }
-
-    };
+  };
 };
