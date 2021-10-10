@@ -35,11 +35,11 @@ module.exports = (env) => {
       new ImageMinimizerPlugin({
         minimizerOptions: {
           plugins: [
+            // SVGO options: "https://github.com/svg/svgo#what-it-can-do"
             [
               'imagemin-svgo',
               {
                 plugins: [
-                  // SVGO options: "https://github.com/svg/svgo#what-it-can-do"
                   {
                     removeViewBox: false,
                     removeXMLNS: true,
