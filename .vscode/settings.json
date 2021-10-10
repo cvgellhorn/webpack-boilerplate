@@ -1,0 +1,16 @@
+{
+  "css.validate": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "files.insertFinalNewline": true,
+  "files.associations": {
+    "*.env.dev": "env",
+    "*.env.local": "env",
+    "*.env.prd": "env",
+    "*.env.stg": "env"
+  }
+}
