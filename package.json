@@ -31,7 +31,7 @@
     "html-webpack-plugin": "5.5.0",
     "image-minimizer-webpack-plugin": "^3.0.0",
     "imagemin-svgo": "^10.0.0",
-    "node-sass": "6.0.1",
+    "node-sass": "7.0.0",
     "raw-loader": "^4.0.2",
     "sass-loader": "12.3.0",
     "style-loader": "3.3.1",
