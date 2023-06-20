@@ -29,7 +29,7 @@
     "css-loader": "6.8.1",
     "file-loader": "6.2.0",
     "html-webpack-plugin": "5.5.3",
-    "image-minimizer-webpack-plugin": "^3.8.2",
+    "image-minimizer-webpack-plugin": "^3.8.3",
     "imagemin-svgo": "^10.0.1",
     "node-sass": "9.0.0",
     "raw-loader": "^4.0.2",
