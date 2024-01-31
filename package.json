@@ -33,7 +33,7 @@
     "imagemin-svgo": "^10.0.1",
     "node-sass": "9.0.0",
     "raw-loader": "^4.0.2",
-    "sass-loader": "14.0.0",
+    "sass-loader": "14.1.0",
     "style-loader": "3.3.4",
     "url-loader": "4.1.1",
     "webpack": "5.90.0",
